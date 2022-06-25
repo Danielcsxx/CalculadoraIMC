@@ -1,0 +1,85 @@
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora de IMC</title>
+        
+        <link rel="stylesheet" href="./assets/css/style.css">
+        
+    </head>
+    
+    <body>
+        
+        <div class="footer">
+            <p><a rel="noopener noreferrer" target="_blank" href="https://github.com/Danielcsxx">Feito com <span
+                        class="heart">❤</span> por<span class="contact-Me">Daniel C. Soares</span></a></p>
+        </div>
+
+        <section class="sectionStyle">
+        <h1>Calculadora de IMC</h1>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">IMC</th>
+                        <th colspan="2">Resultado</th>
+                        <th colspan="2">Grau</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg1">
+                        <td colspan="2">Menor do que 18.5</td>
+                        <td colspan="2">Magreza</td>
+                        <td colspan="2">0</td>
+                    </tr>
+                    <tr class="bg2">
+                        <td colspan="2">Entre 18.5 e 24.9</td>
+                        <td colspan="2">Peso Normal</td>
+                        <td colspan="2">0</td>
+                    </tr>
+                    <tr class="bg3">
+                        <td colspan="2">Entre 25 e 29.9</td>
+                        <td colspan="2">Sobrepeso</td>
+                        <td colspan="2">0</td>
+                    </tr>
+                    <tr class="bg4">
+                        <td colspan="2">Entre 30 e 34.9</td>
+                        <td colspan="2">Obesidade</td>
+                        <td colspan="2">1</td>
+                    </tr>
+                    <tr class="bg5">
+                        <td colspan="2">Entre 35 e 39.9</td>
+                        <td colspan="2">Obesidade Grave</td>
+                        <td colspan="2">2</td>
+                    </tr>
+                    <tr class="bg6">
+                        <td colspan="2">Maior do que 40</td>
+                        <td colspan="2">Obesidade Alto Risco</td>
+                        <td colspan="2">3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="sectionStyle formStyle">
+        <form action="/" id="formulario" method="POST">
+            <label for="peso">Peso:</label>
+            <input type="text" name="peso" id="peso" placeholder="Informe aqui o seu peso (kgs). Exemplo: 62.44">
+            <label for="altura">Altura:</label>
+            <input type="text" name="altura" id="altura" placeholder="Informe aqui a sua altura (metros.cm). Exemplo: 1.68">
+            <button type="submit">Calcular meu IMC</button>
+        </form>
+
+        <div id="resultado"></div>
+
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

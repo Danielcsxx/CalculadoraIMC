@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --color:#003A77; ;
+    --color-hover:  #2ABCD0;
+    --table-colorbg: rgb(165, 165, 165);
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/Hexagon.svg);
+    background-position: center;
+    font-family: 'Open sans', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 5rem auto;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    min-width: 36rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead,
+th {
+    background: var(--table-colorbg);
+    color: var(--primary-color-dark);
+}
+
+tbody,
+td {
+    color: #fff;
+}
+
+table td,
+table th {
+    font-weight: 700;
+    white-space: nowrap;
+    padding: 1rem;
+    text-align: center;
+    border: 0.5rem solid #fff;
+}
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 20px;
+    height: 50px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+form label {
+    font-size: 2.6rem;
+}
+
+form input:focus {
+    outline: 1px solid #2ABCD0;
+}
+
+form button {
+    border: none;
+    background: var(--color);
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background: var(--color-hover);
+}
+
+form button:active {
+    background: black;
+}
+
+.sectionStyle {
+    max-width: 90rem;
+    font-family: sans-serif;
+    background: rgb(233, 233, 233);
+    margin: 0.1rem auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.paragrafoResultado,
+.bad {
+    background: #2BDFE2;
+    padding: 10px 20px;
+}
+
+.bad {
+    background: rgb(255, 150, 150);
+}
+
+.bg1 {
+    background: #6DB5E8;
+}
+
+.bg2 {
+    background: #8FC9A2;
+}
+
+.bg3 {
+    background: #F8E551;
+}
+
+.bg4 {
+    background: #FFA728;
+}
+
+.bg5 {
+    background: #FC6F41;
+}
+
+.bg6 {
+    background: #DC4E53;
+}
+
+.footer {
+    display: flex;
+    color: var(--primary-color);
+    text-align: left;
+    font-size: 2rem;
+}
+
+.footer a {
+    padding: 1rem;
+    /* background: #fff; */
+    color: rgb(255, 255, 255);
+}
+
+.heart {
+    color: red;
+}
+
+.contact-Me {
+    margin-left: 0.5rem;
+    text-shadow: 1px 1px 1px rgb(1, 80, 170);
+}
+
+.contact-Me:hover {
+    color: rgb(8, 207, 233);
+    transition: all 300ms ease-in-out;
+}
+
+.footer p {
+    margin: 0;
+    padding: 2rem;
+}
