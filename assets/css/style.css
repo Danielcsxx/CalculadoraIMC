@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-    --color:#003A77; ;
-    --color-hover:  #2ABCD0;
+    --color: #003A77;
+    ;
+    --color-hover: #2ABCD0;
     --table-colorbg: rgb(165, 165, 165);
 }
 
@@ -40,6 +41,7 @@ table {
     min-width: 36rem;
     width: 100%;
     border-collapse: collapse;
+
 }
 
 thead,
@@ -178,4 +180,23 @@ form button:active {
 .footer p {
     margin: 0;
     padding: 2rem;
+}
+
+@media (max-width: 800px) {
+
+    .sectionStyle {
+        overflow: hidden;
+        overflow-x: auto;
+
+    }
+
+    h1 {
+        font-size: 3.3rem;
+    }
+
+    .footer {
+        font-size: 1.8rem;
+    }
+
+
 }
