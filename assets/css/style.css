@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-    --color: #003A77;
-    ;
-    --color-hover: #2ABCD0;
-    --table-colorbg: rgb(165, 165, 165);
+    --color: rgb(0, 0, 117);
+    --color-hover: rgb(0, 0, 65);
+    --table-colorbg: rgb(150, 150, 150);
 }
 
 * {
@@ -21,20 +20,23 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-image: url(../img/Hexagon.svg);
-    background-position: center;
+    background-image: url(../img/constellation.svg);
+    position: relative;
+    height: 100vh;
+    width: 100vw;
     font-family: 'Open sans', sans-serif;
     font-size: 2.5rem;
     line-height: 1;
 }
 
 h1 {
-    font-size: 5rem;
-    margin: 5rem auto;
-    font-family: sans-serif;
     display: flex;
-    align-items: center;
     justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 6rem;
+    font-family: sans-serif;
+    align-items: center;
+    margin: 5rem auto;
 }
 
 table {
@@ -52,7 +54,7 @@ th {
 
 tbody,
 td {
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 table td,
@@ -61,7 +63,7 @@ table th {
     white-space: nowrap;
     padding: 1rem;
     text-align: center;
-    border: 0.5rem solid #fff;
+    border: 0.5rem solid rgb(255, 255, 255);
 }
 
 form input,
@@ -90,7 +92,7 @@ form input:focus {
 form button {
     border: none;
     background: var(--color);
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 22px;
     font-weight: 700;
     height: 50px;
@@ -109,7 +111,7 @@ form button:active {
 .sectionStyle {
     max-width: 90rem;
     font-family: sans-serif;
-    background: rgb(233, 233, 233);
+    background: rgb(165, 165, 165, 0.77);
     margin: 0.1rem auto;
     margin-bottom: 1rem;
     padding: 1rem;
@@ -118,7 +120,8 @@ form button:active {
 
 .paragrafoResultado,
 .bad {
-    background: #2BDFE2;
+    background: rgb(50, 50, 50);
+    color: rgb(255, 255, 255);
     padding: 10px 20px;
 }
 
