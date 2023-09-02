@@ -117,6 +117,7 @@ form button:active {
     font-family: sans-serif;
     background: rgb(165, 165, 165, 0.77);
     margin: 0.1rem auto;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     padding: 1rem;
     border-radius: 1rem;
@@ -127,6 +128,7 @@ form button:active {
     font-family: sans-serif;
     background: rgb(165, 165, 165, 0.77);
     margin: 0.1rem auto;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     padding: 1rem;
     border-radius: 1rem;
@@ -145,6 +147,7 @@ form button:active {
     background: rgb(165, 165, 165, 0.77);
     color: rgb(255, 255, 255);
     padding: 10px 20px;
+    border-radius: 1rem;
 }
 
 .bad {
