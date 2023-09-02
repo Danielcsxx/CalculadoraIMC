@@ -1,24 +1,14 @@
 </html>
 <!DOCTYPE html>
 <html lang="pt-BR">
-    
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calculadora de IMC</title>
-        
         <link rel="stylesheet" href="./assets/css/style.css">
-        
     </head>
-    
     <body>
-        
-        <div class="footer">
-            <p><a rel="noopener noreferrer" target="_blank" href="https://github.com/Danielcsxx">Feito com <span
-                        class="heart">❤</span> por<span class="contact-Me">Daniel C. Soares</span></a></p>
-        </div>
-
         <section class="sectionStyle">
         <h1>Calculadora de IMC</h1>
         <div>
@@ -65,6 +55,9 @@
             </table>
         </div>
     </section>
+    <section class="sectionStyleResultado">
+        <div id="resultado"></div>
+    </section>
     <section class="sectionStyleBottom formStyle">
         <form action="/" id="formulario" method="POST">
             <label for="peso">Informe o seu peso abaixo:</label>
@@ -73,13 +66,11 @@
             <input type="text" name="altura" id="altura" placeholder="Altura em (M.cm). Exemplo: 1.68">
             <button type="submit">Calcular meu IMC</button>
         </form>
-
-        <div id="resultado"></div>
-
     </section>
-
+    <div class="footer">
+        <p><a rel="noopener noreferrer" target="_blank" href="https://github.com/Danielcsxx">Feito com <span
+                    class="heart">❤</span> por<span class="contact-Me">Daniel C. Soares</span></a></p>
+    </div>
     <script src="./assets/js/main.js"></script>
-
 </body>
-
 </html>

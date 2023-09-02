@@ -22,7 +22,6 @@ body {
     padding: 0;
     background-image: url(../img/constellation.svg);
     position: relative;
-    height: 100vh;
     width: 100vw;
     font-family: 'Open sans', sans-serif;
     font-size: 2.5rem;
@@ -33,10 +32,10 @@ h1 {
     display: flex;
     justify-content: center;
     color: rgb(255, 255, 255);
-    font-size: 6rem;
+    font-size: 4.2rem;
     font-family: sans-serif;
     align-items: center;
-    margin: 5rem auto;
+    margin: 2.2rem auto;
 }
 
 table {
@@ -102,6 +101,7 @@ form button {
     cursor: pointer;
     margin-top: 20px;
     border-radius: 4px;
+    margin-bottom: -18px;
 }
 
 form button:hover {
@@ -133,9 +133,16 @@ form button:active {
     margin-bottom: 2rem;
 }
 
+.sectionStyleResultado{
+    max-width: 60rem;
+    text-align: center;
+    margin: 0.1rem auto;
+    border-radius: 1rem;
+}
+
 .paragrafoResultado,
 .bad {
-    background: rgb(50, 50, 50);
+    background: rgb(165, 165, 165, 0.77);
     color: rgb(255, 255, 255);
     padding: 10px 20px;
 }
@@ -173,6 +180,7 @@ form button:active {
     color: var(--primary-color);
     text-align: left;
     font-size: 2rem;
+    justify-content: center;
 }
 
 .footer a {
