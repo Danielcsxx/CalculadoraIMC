@@ -8,8 +8,8 @@ _Calcule o seu IMC de uma forma simples e rápida._
 ### Antes de tudo, o que é e para que serve uma Calculadora de IMC ?
 </br>
 
-- Uma calculadora de IMC ( Índice de Massa Corporal ) é uma ferramenta que utiliza a altura e o peso de uma pessoa,</br> 
-para calcular um valor que indica se o seu peso está dentro de uma faixa saudável, subponderal, sobrepeso ou até mesmo obeso(a).</br> 
+- Uma calculadora de IMC ( Índice de Massa Corporal ) é uma ferramenta que utiliza a altura e o peso de uma pessoa, 
+para calcular um valor que indica se o seu peso está dentro de uma faixa saudável, subponderal, sobrepeso ou até mesmo obeso(a).
 É uma medida simples da relação entre peso e altura para avaliar a sua saúde e o risco de problemas relacionados ao seu peso.</br> 
 
 ### Qual o intuito desse Projeto ?
